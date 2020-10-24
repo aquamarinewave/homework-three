@@ -162,10 +162,15 @@ h2 {
 
 .reasons li {
     font-size: 24px;
+    list-style-type: none; 
+}
+li:before {
+    content: "- "; 
 }
 
 .reasons ul {
     margin-bottom: 44px;
+    padding-left: 0;
 }
 
 #btn-reason {
